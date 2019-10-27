@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+flake8 = "*"
+pylint = "*"
+python-language-server = "*"
+black = "*"
+
+[packages]
+Sphinx = "*"
+allennlp = {git = "https://github.com/allenai/allennlp.git"}
+transformers = "*"
+luigi = "*"
+gokart = "*"
+
+[requires]
+python_version = "3.7"
